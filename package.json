@@ -1,0 +1,25 @@
+{
+  "name": "createproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.59",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^14.0.27",
+    "dotenv": "^8.2.0",
+    "serverless-offline": "^6.5.0",
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@hapi/joi-date": "^2.0.1",
+    "pg": "^8.3.0"
+  }
+}
